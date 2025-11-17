@@ -1,2 +1,2 @@
 # Cryptography
-Cryptoalgorithms and other crypto stuff
+Cryptography suite meant for CTF Cryptography challenges
