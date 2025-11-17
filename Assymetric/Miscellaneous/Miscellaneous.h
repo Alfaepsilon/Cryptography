@@ -1,5 +1,7 @@
-int shift_cipher();
-int primitive_roots();
-unsigned long long exeucalgo();
-int gcd();
-unsigned long long fastpoweralgo_lowmem();
+#include <mpir.h>
+#ifndef CRYPTO_H
+#define CRYPTO_H
+
+mpz_t* cc_gcd(mpz_t a, mpz_t b);
+
+#endif
